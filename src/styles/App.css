@@ -1,0 +1,158 @@
+/*Home / BaseLayout*/
+body {
+  background: silver;
+  font-family: noteworthy;
+}
+
+header nav{
+  background-color: #222222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .8em;
+  border-bottom: 2px solid white;
+  color: white;
+}
+
+img{
+  width: 115px;
+  height: 115px;
+  margin-right: -80px;
+};
+
+
+nav {
+}
+
+nav a{
+  font-size: 30px;
+  color: white;
+  margin-right: 2em;
+  margin-left: 1em;
+  text-decoration: none;
+}
+
+.homeDiv {
+  height: 100vh;
+  background-image: url("http://plaidswan.com/wp-content/uploads/2017/05/F7148507-7860-465B-950B-2F55B420CEDB-1229-0000010877FFE7CA_tmp-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+/*Create a Post*/
+
+.createPostDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+}
+
+form {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 1em;
+  background-color: #00B9F4;
+  color: white;
+}
+
+input {
+  width: 497px;
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.submitButtonDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.submitButton {
+  font-family: futura;
+  font-size: 18px;
+  border: 1px solid black;
+  color: white;
+  margin-top: 8px;
+  height: 35px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+.submitButton:hover {
+  color: white;
+  background-color: #3AEB7A;
+}
+
+/*Post List*/
+
+.blogDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.blogItem {
+  width: 800px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-decoration: none;
+  background-color: #00B9F4;
+  color: white;
+}
+
+.blogItemInfo {
+  margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+/*Show Post*/
+
+.showPostDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.postItemSection {
+  margin-top: 4em;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #00B9F4;
+  color: white;
+  width: 500px;
+  padding: 2em;
+}
+
+
+.postItemDetailTitle {
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.postItemDetailEntry {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.postItemDetailName {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
